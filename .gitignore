@@ -1,0 +1,22 @@
+# ===== SECRETS =====
+.env
+
+# ===== PYTHON =====
+venv/
+__pycache__/
+*.pyc
+
+# ===== RAW KAGGLE DATA (1.4GB, too large) =====
+data/raw/
+
+# ===== GENERATED AT RUNTIME (reviewer rebuilds) =====
+data/chroma_db/
+data/threads.sqlite
+data/eval_results.json
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
